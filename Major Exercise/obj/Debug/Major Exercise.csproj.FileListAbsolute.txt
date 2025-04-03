@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exercise\bin\Debug\Major Exercise.exe.config
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exercise\bin\Debug\Major Exercise.exe
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exercise\bin\Debug\Major Exercise.pdb
@@ -13,3 +14,20 @@ D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exerci
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.csproj.CoreCompileInputs.cache
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.exe
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.pdb
+=======
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\bin\Debug\Major Exercise.exe.config
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\bin\Debug\Major Exercise.exe
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\bin\Debug\Major Exercise.pdb
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.csproj.AssemblyReference.cache
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\MainWindow.g.cs
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\App.g.cs
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise_MarkupCompile.cache
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise_MarkupCompile.lref
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\MainWindow.baml
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.g.resources
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major_Exercise.Properties.Resources.resources
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.csproj.GenerateResource.cache
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.exe
+C:\Users\Zbook 15 G2\Documents\GitHub\VisionwaveMajorExercise\Major Exercise\obj\Debug\Major Exercise.pdb
+>>>>>>> Stashed changes
