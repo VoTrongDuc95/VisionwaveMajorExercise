@@ -18,14 +18,7 @@
             <ScrollViewer >
                 <WrapPanel x:Name="Thumbnail_Panel_View" Background="AntiqueWhite"  Width="236" Height="260">
                     <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
+                    
                     
 
 
