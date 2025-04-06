@@ -9,25 +9,7 @@
 
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="14*"/>
-            <ColumnDefinition Width="11*"/>
-        </Grid.ColumnDefinitions>
-        <Grid Margin="87,119,38,74">
-            <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Margin="105,15,88,0" Height="20" VerticalAlignment="Top" />
-            <ScrollViewer >
-                <WrapPanel x:Name="Thumbnail_Panel_View" Background="AntiqueWhite"  Width="236" Height="260">
-                    <TextBox TextWrapping="Wrap" Text="Thumbnail Panel View" Width="151"/>
-                    
-                    
-
-
-                </WrapPanel>
-
-
-            </ScrollViewer>
-        </Grid>
-
+       
 
 
 
