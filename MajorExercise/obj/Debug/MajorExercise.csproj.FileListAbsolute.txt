@@ -1,0 +1,15 @@
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\MajorExercise.exe.config
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\MajorExercise.exe
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\MajorExercise.pdb
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.csproj.AssemblyReference.cache
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MainWindow.g.cs
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\App.g.cs
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise_MarkupCompile.cache
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise_MarkupCompile.lref
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MainWindow.baml
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.g.resources
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.Properties.Resources.resources
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.csproj.GenerateResource.cache
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.csproj.CoreCompileInputs.cache
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.exe
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.pdb
