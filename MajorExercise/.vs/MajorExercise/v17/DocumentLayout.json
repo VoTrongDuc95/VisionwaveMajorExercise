@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|d:\\01.work\\00.learning\\c#\\06.major exercise\\visionwavemajorexercise\\majorexercise\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-06T15:18:00.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:17:59.499Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
