@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|d:\\01.work\\00.learning\\c#\\06.major exercise\\visionwavemajorexercise\\majorexercise\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|D:\\01.Work\\00.Learning\\C#\\06.Major Exercise\\VisionwaveMajorExercise\\MajorExercise\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8465A99A-7995-44AC-9CE7-BF9206F3754E}|MajorExercise.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,8 +50,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:17:59.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:17:59.499Z"
             }
           ]
         }
