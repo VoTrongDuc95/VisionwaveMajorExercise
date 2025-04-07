@@ -6,8 +6,44 @@
         xmlns:local="clr-namespace:MajorExercise"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Name="btnStart" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btnStart_Click"/>
 
+    <Grid Margin="2,54,0,44">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="265*" />
+            <ColumnDefinition Width="167*" />
+        </Grid.ColumnDefinitions>
+        <!-- Grid trái -->
+        <Grid Grid.Column="0" Background="LightBlue">
+            <Label Content="Thumbnail" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="16"/>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,44,0,0">
+                <ItemsControl Name="ImageItemsControl">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="Gray" BorderThickness="1" Margin="5">
+                                <Image Source="{Binding}" Width="150" Height="150" Stretch="UniformToFill" MouseLeftButtonUp="ThumbnailClick"/>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- Grid phải -->
+        <Grid Grid.Column="1" Background="LightGreen">
+            <Label Content="Image View" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="16"/>
+            <Button Name="btnStart" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="71" Click="BtnStart_Click" Height="30" Margin="0,38,0,0"/>
+            <Image Name="ImageView" Stretch="Uniform" Margin="0,90,2,64"/>
+            <Label Name="lblImageInfo" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="148" Height="41" FontSize="16" Margin="6,326,0,0"/>
+            <Label Name="lblImageSize" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="148" Height="32" FontSize="16" Margin="163,334,0,0"/>
+        </Grid>
+        <GridSplitter Grid.Column="0" Width="5" Background="Gray" HorizontalAlignment="Right"/>
+        <StackPanel Grid.ColumnSpan="2" Margin="4,341,7,-44" VerticalAlignment="Bottom">
+            <TextBlock Text="Image Path:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
     </Grid>
 </Window>

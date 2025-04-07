@@ -15,3 +15,6 @@ D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercis
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExercise.pdb
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\Microsoft.WindowsAPICodePack.dll
 D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\obj\Debug\MajorExe.03D2D401.Up2Date
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\01.Work\00.Learning\C#\06.Major Exercise\VisionwaveMajorExercise\MajorExercise\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
