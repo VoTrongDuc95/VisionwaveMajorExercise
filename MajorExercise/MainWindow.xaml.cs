@@ -64,6 +64,7 @@ namespace MajorExercise
                     System.Diagnostics.Debug.WriteLine($"Tìm thấy {imageSources.Count} ảnh");
 
                     ImageItemsControl.ItemsSource = imageSources;
+                    ImageFound.Content = $"Image Found: {imageSources.Count}";
                 }
             }
         }
@@ -100,6 +101,19 @@ namespace MajorExercise
                 lblImageInfo.Content = fileName;
                 lblImageSize.Content = imageSize;
             }
+
+        }
+
+        private void UnfavoriteImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            FavoriteImage.Visibility = Visibility.Visible;
+            UnfavoriteImage.Visibility = Visibility.Hidden;
+        }
+
+        private void FavoriteImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            FavoriteImage.Visibility = Visibility.Hidden;
+            UnfavoriteImage.Visibility = Visibility.Visible;
 
         }
     }
