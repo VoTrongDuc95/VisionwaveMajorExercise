@@ -33,7 +33,8 @@ namespace MajorExercise
         }
         // Biến lưu danh sách ảnh
         private List<string> imageFiles = new List<string>();
-
+        public Dictionary<string, bool> FavoriteImage = new Dictionary<string, bool>();
+        public string nameImage;
         private void BtnStart_Click(object sender, RoutedEventArgs e)
         {
             using (var folderDialog = new CommonOpenFileDialog { IsFolderPicker = true })
@@ -65,6 +66,7 @@ namespace MajorExercise
 
                     ImageItemsControl.ItemsSource = imageSources;
                     ImageFound.Content = $"Image Found: {imageSources.Count}";
+                    ShowFavorieImage();
                 }
             }
         }
@@ -95,26 +97,65 @@ namespace MajorExercise
 
                 // Lấy thông tin ảnh: Tên và kích thước
                 string fileName = Path.GetFileName(selectedImagePath);
+                nameImage = fileName;
                 // Kích thước ảnh thực tế
                 string imageSize = $"{bitmap.PixelWidth} x {bitmap.PixelHeight} px";
                 // Cập nhật thông tin vào Label
                 lblImageInfo.Content = fileName;
                 lblImageSize.Content = imageSize;
+                if (FavoriteImage.ContainsKey(nameImage))
+                {
+                    if (FavoriteImage[nameImage] == true)
+                    {
+                        favoriteImage.Visibility = Visibility.Visible;
+                        unfavoriteImage.Visibility = Visibility.Hidden;
+                    }
+                    else
+                    {
+                        favoriteImage.Visibility = Visibility.Hidden;
+                        unfavoriteImage.Visibility = Visibility.Visible;
+                    }
+                }
+                else
+                {
+                    //FavoriteImage[nameImage] = false;
+                    favoriteImage.Visibility = Visibility.Hidden;
+                    unfavoriteImage.Visibility = Visibility.Visible;
+                }
             }
 
         }
 
         private void UnfavoriteImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            FavoriteImage.Visibility = Visibility.Visible;
-            UnfavoriteImage.Visibility = Visibility.Hidden;
+            favoriteImage.Visibility = Visibility.Visible;
+            unfavoriteImage.Visibility = Visibility.Hidden;
+            FavoriteImage[nameImage] = true;
+            ShowFavorieImage();
+
         }
 
         private void FavoriteImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            FavoriteImage.Visibility = Visibility.Hidden;
-            UnfavoriteImage.Visibility = Visibility.Visible;
+            favoriteImage.Visibility = Visibility.Hidden;
+            unfavoriteImage.Visibility = Visibility.Visible;
+            FavoriteImage[nameImage] = false;
+            ShowFavorieImage();
 
+        }
+        public void ShowFavorieImage()
+        {
+            var favoriteImages = FavoriteImage.Where(x => x.Value == true).Select(x => x.Key).ToList();
+            lbFavoriteImages.Content = "Favorite Images: " + favoriteImages.Count.ToString();
+            //if (favoriteImages.Count > 0)
+            //{
+            //    var message = "Danh sách ảnh yêu thích:\n" + string.Join("\n", favoriteImages);
+            //    MessageBox.Show(message, "Ảnh yêu thích", MessageBoxButton.OK, MessageBoxImage.Information);
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Không có ảnh nào được đánh dấu yêu thích.", "Ảnh yêu thích", MessageBoxButton.OK, MessageBoxImage.Information);
+            //}
         }
     }
 }
